@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:todo/screens/home_screen.dart';
 // ignore: unused_import
 import 'package:todo/screens/signup_screen.dart';
-import 'package:todo/widgets/task_widgets.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
