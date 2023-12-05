@@ -1,9 +1,12 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+// import 'package:todo/screens/addnote_screen.dart';
 // ignore: unused_import
 import 'package:todo/screens/home_screen.dart';
 // ignore: unused_import
 import 'package:todo/screens/signup_screen.dart';
+// ignore: unused_import
+import 'package:todo/widgets/task_widgets.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

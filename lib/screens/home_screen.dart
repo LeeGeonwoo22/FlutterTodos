@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:todo/const/colors.dart';
+import 'package:todo/screens/addnote_screen.dart';
 import 'package:todo/widgets/task_widgets.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -20,7 +21,11 @@ class _HomeScreenState extends State<HomeScreen> {
         floatingActionButton: Visibility(
           visible: show,
           child: FloatingActionButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.of(context).push(MaterialPageRoute(
+                builder: (context) => const Add_Screen(),
+              ));
+            },
             backgroundColor: custom_green,
             child: const Icon(Icons.add, size: 30),
           ),
